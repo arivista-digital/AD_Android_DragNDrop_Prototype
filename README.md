@@ -22,13 +22,24 @@
 * Reveal Answer
 
 ### How to use ###
- * gradle 
+### Project level import ###
+
+* build.gradle
 ```
- implementation 'com.github.arivista-digital:drag-drop:V1_0'
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
  ```
- * Add jitpack in your project build gradle
+### Module level import ###
+
+* build.gradle
 ```
- maven { url 'https://jitpack.io' }
+dependencies {
+     implementation 'com.github.arivista-digital:drag-drop:V1_0'
+	}
  ```
  * activity_main Layout initialize
 ```
