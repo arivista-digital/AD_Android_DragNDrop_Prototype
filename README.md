@@ -38,7 +38,9 @@ allprojects {
 * build.gradle
 ```
 dependencies {
+
      implementation 'com.github.arivista-digital:drag-drop:V1_0'
+     
 	}
  ```
  * activity_main Layout initialize
@@ -49,7 +51,7 @@ dependencies {
         android:layout_height="match_parent">
     </arivista.lib.dragdrop.CustomView>
 ```
-* MainActivity Funtionalites
+### MainActivity Funtionalites ###
 
 * Custom view object creation
 ```
