@@ -22,7 +22,14 @@
 * Reveal Answer
 
 ### How to use ###
-
+ * gradle 
+```
+ implementation 'com.github.arivista-digital:drag-drop:V1_0'
+ ```
+ * Add jitpack in your project build gradle
+```
+ maven { url 'https://jitpack.io' }
+ ```
  * activity_main Layout initialize
 ```
     <arivista.lib.dragdrop.CustomView
@@ -55,7 +62,7 @@
    customView.setImage(R.drawable.demoimage)
 ```    
 ### Gif ###
-![Alt Text] (/app/screenshot/demo.gif)
+![Alt Text](/app/screenshot/demo.gif)
 ### Links ###
 * [Arivista ](https://www.arivistadigital.org/ "Arivista ")
 
